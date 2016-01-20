@@ -1,0 +1,26 @@
+<template name="artistEdit">
+  <form class="form-horizontal">
+
+    <div class="form-group">
+      <div class="col-xs-4">
+        <label class="control-label" for="url">Artist</label>
+        <input name="artistName" id="artistName" type="text" value="{{name}}" placeholder="Type the artist's name here" class="form-control col-sm-4" />
+      </div>
+    </div>
+
+    <div class="form-group col-xs-2">
+      <select name="artistGenre" class="form-control">
+        <option selected="selected">Select Genre</option>
+        <option>Country</option>
+        <option>Pop</option>
+        <option>Rock</option>
+      </select>
+    </div>
+
+    <div class="form-group col-sm-4">
+      <a class="btn btn-default" href="/artists" role="button">Cancel</a>
+      <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+
+  </form>
+</template>
