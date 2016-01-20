@@ -1,0 +1,26 @@
+<template name="artistList">
+  <div class="container col-sm-8 col-md-6">
+    {{#if currentUser}}
+    <table class="table table-striped table-bordered table-condensed" id="artistList">
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Genre</th>
+          <th style="text-align:right;">
+            <a href="/addArtist">
+              <span class="glyphicon glyphicon-plus btn-sm" aria-hidden="true"></span>
+            </a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each artists}}
+        <tr>
+          {{> artistDetail}}
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    {{else}} Please log in to view / edit artists. {{/if}}
+  </div>
+</template>
