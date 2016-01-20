@@ -1,1 +1,2 @@
-/* CSS declarations go here */
+/* added the following line to add space between the navbar and the text */
+@media (min-width: 980px) { body { padding-top: 60px; } }
