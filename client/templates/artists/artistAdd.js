@@ -17,7 +17,7 @@ Template.artistSubmit.events({
       if (result.artistExists)
           alert('This artist has already been added.');
 
-        Router.go('artistList');
+        Router.go('/artists');
 
     });
   }
