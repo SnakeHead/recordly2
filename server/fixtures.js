@@ -1,37 +1,37 @@
 if (Artists.find().count() == 0) {
   var artists = [{
     name: 'David Bowie',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Jackson Brown',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Eagles',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Rush',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Styx',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Willy Nelson',
-    genre: 'country'
+    genre: 'Country'
   }, {
     name: 'Stevie Ray Vaughn',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Katy Perry',
-    genre: 'pop'
+    genre: 'Pop'
   }, {
     name: 'Faith Hill',
-    genre: 'country'
+    genre: 'Country'
   }, {
     name: 'U2',
-    genre: 'rock'
+    genre: 'Rock'
   }, {
     name: 'Shakira',
-    genre: 'pop'
+    genre: 'Pop'
 }];
 
   for (var i = 0; i < artists.length; i++) {
